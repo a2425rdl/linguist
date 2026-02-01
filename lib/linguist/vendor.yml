@@ -1,6 +1,11 @@
 # Vendored files and directories are excluded from language
 # statistics.
-#
+## Apply override to all files in the directory
+special-vendored-path/* linguist-vendored
+# Apply override to a specific file
+jquery.js -linguist-vendored
+# Apply override to all files and directories in the directory
+ano-dir/** linguist-vendored
 # Lines in this file are Regexps that are matched against the file
 # pathname.
 #
